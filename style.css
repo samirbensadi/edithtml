@@ -1,0 +1,131 @@
+*{ /* RESET CSS */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  color: white;
+  font-family: courier;
+}
+ /*couleur bouton */
+.vert{
+  background-color: #2C7314;
+  transition: 1s;
+}
+
+.vert:hover
+{
+  background-color: #143709;
+  transition: 1s,
+}
+
+.orange{
+  background-color: #FF9D13;
+  transition: 1s;
+}
+
+.orange:hover
+{
+  background-color: #8A5710;
+  transition: 1s;
+}
+
+.rouge{
+  background-color: #A52A2A;
+  transition: 1s;
+}
+
+.rouge:hover
+{
+  background-color: #730404;
+  transition: 1s;
+}
+
+
+#mainTitle
+{
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+#Thtml 
+{
+  color: #2C7314 ;
+}
+
+#Tjs {
+  color:#FF9D13;
+}
+
+input{
+  border: 0;
+  font-size: 1em;
+  color: white;
+  padding: 8px 8px;
+  margin: 15px 0;
+  width: 150px;
+  height: 40px;
+  font-family: courier;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 800px;
+}
+
+legend{
+  color: #FF9D13;
+  font-size: 20px;
+  font-family: Courier;
+}
+
+section{
+  width: 50%;
+  flex: 1;
+  margin: 1em;
+}
+
+fieldset{
+  border: none;
+  height: 100%;
+  width: 100%;
+  margin: 30px 0;
+}
+
+textarea{
+  height: 90%;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  border: 0;
+  padding: 15px;
+}
+/*section edit */
+.editZone{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+}
+/*prevview*/
+#view{
+  background-color: #EEEEEE;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.prevZone {
+  display: flex;
+  flex: 1;
+}
+
+.jsZone 
+{
+  margin-top: 50px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="script.js"></script>
+    <title>Editeur HTML/JS</title>
+  </head>
+  <body>
+
+    <h1 id="mainTitle">Éditeur de code <span id="Thtml">HTML</span> / <span id="Tjs">JavaScript</span></h1>
+
+    <main>
+
+      <section class="editZone">
+          <fieldset class="htmlZone">
+            <legend>CODE HTML</legend>
+            <textarea id="txtHtml" value="" ></textarea>
+            <input type="button" class="vert" name="name" onclick="addHtml()" value="Ajouter html">
+            <input type="button" class="orange" name="name" onclick="deleteVue()" value="Effacer vue">
+            <input type="button" class="rouge" name="name" onclick="resetHtml()" value="Effacer html">
+          </fieldset>
+
+
+          <fieldset class="jsZone">
+            <legend>CODE JAVASCRIPT</legend>
+            <textarea name="name" id="txtJs" value=""></textarea>
+
+            <input type="button" class="vert" name="name" onclick="addJs()" value="Add JS">
+
+            <input type="button" class="orange" name="name" onclick="deleteJs()" value="Effacer">
+
+            <input type="button" class="rouge" name="name" onclick="reloadJs()" value="Actualiser">
+
+          </fieldset>
+
+      </section>
+
+      <section class="prevZone">
+          <fieldset>
+            <legend>PREVISUALISATION</legend>
+            <div id="view">
+
+
+            </div>
+          </fieldset>
+
+      </section>
+
+    </main>
+
+  </body>
+</html>
